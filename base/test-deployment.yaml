@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
         - name: deploy-test
-          image: nginx:1.26
+          image: dealim/myweb:6.0
           ports:
             - containerPort: 5000
